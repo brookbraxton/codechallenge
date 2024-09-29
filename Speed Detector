@@ -1,0 +1,9 @@
+speed limit = 70
+let input speed = 80 
+
+if(input speed < speed limit){
+    console.log("OK")
+}
+else if (input speed > speed limit"with 5km/s" ){
+    console.log("Points:2")
+}
