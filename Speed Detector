@@ -1,9 +1,18 @@
-speed limit = 70
-let input speed = 80 
+ speed_detector(speed):
+    speed_limit = 70
+    demerit_points = 0
 
-if(input speed < speed limit){
-    console.log("OK")
+    if (speed < speed_limit){
+        console.log("OK")
+    }
+
+     else(demerit_points = (speed - speed_limit)) {// 5
+        console.log(f"Points: {demerit_points}")
 }
-else if (input speed > speed limit"with 5km/s" ){
-    console.log("Points:2")
-}
+
+        
+       else if (demerit_points > 12){
+            console.log("License suspended")
+        }
+
+ 
