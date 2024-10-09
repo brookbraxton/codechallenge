@@ -1,18 +1,18 @@
- speed_detector(speed):
-    speed_limit = 70
-    demerit_points = 0
+function speed_detector(speed){
+    const speed_limit = 70;
+    let demerit_points = 0
 
-    if (speed < speed_limit){
-        console.log("OK")
+    if (speed < speed_limit) {
+        console.log("OK");
     }
 
-     else(demerit_points = (speed - speed_limit)) {// 5
-        console.log(f"Points: {demerit_points}")
-}
+     else{demerit_points = Math.floor((speed - speed_limit) / 5) //Calculating of the demerit points
+        console.log(`Points: ${demerit_points}`);
+
 
         
-       else if (demerit_points > 12){
-            console.log("License suspended")
+        if (demerit_points > 12){
+            console.log("License suspended");
         }
-
- 
+    }
+    }
