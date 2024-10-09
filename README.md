@@ -5,8 +5,11 @@ Code Challenge.
 
 #### By *Roselyne Mwaniki*
 
+## Description
+This is a code challenge project for  a student grading system, speed detector and a salary deduction calculator problem. 
+
 ## Installation
-You use git clone to be able to access the documents in the GitHub
+Clone the repository using git and navigate to the project folder.
 
 ## Installation Requirements
 Git
@@ -21,11 +24,11 @@ Git clone https://github.com/brookbraxton.git
 [Git](gh-pages link)
 
 ## Technologies used
-Github
+Git
 Javascript
 
 ## Support and contact details
-github.com/roselyne_mwaniki
+For any questions or feedback you can reach me through github or email at roselynewairimu30@gmail.com.
 
 ### License
 The content of this site is licensed under the MIT license
